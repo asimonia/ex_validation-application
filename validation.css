@@ -1,0 +1,13 @@
+* {
+	color: purple;
+}
+
+input[type=email]:invalid, input[type=url]:invalid {
+	background-color: red;
+	color: white;
+}
+
+input[type=email]:valid, input[type=url]:valid {
+    background-color: #3CBC8D;
+    color: white;
+}

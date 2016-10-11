@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+	<form>
+		First name:<br>
+		<input type="text" name="firstname"><br>
+		Middle initial:<br>
+		<input type="text" name="middleinitial"><br>
+		Last name:<br>
+		<input type="text" name="lastname"><br>
+		Address:<br>
+		<input type="text" name="address"><br>
+		Occupation:<br>
+		<input type="text" name="occupation"><br>
+		Employer Address:<br>
+		<input type="text" name="employeraddress"><br>
+		Loan Type:<br>
+		<select name="loan">
+			<option value="commercial">Commercial</option>
+			<option value="real_estate">Real Estate</option>
+			<option value="personal">Personal</option>
+			<option value="mortgage">Mortgage</option>
+		</select><br>
+		Requested Amount:<br>
+		<input type="text" name="amount"><br>
+		Mortgage Years:<br>
+		<input type="radio" name="years" value="five"> 5 years<br>
+		<input type="radio" name="years" value="ten"> 10 years<br>
+		<input type="radio" name="years" value="twentyfive"> 25	years<br>
+		Special conditions:<br>
+		<input type="checkbox" name="downpayment">I have a downpayment<br>
+		<input type="checkbox" name="outofstate">Out-of-State Resident<br>
+		<input type="checkbox" name="downpayment">Married<br>
+		<input type="checkbox" name="downpayment">Loan will be co-signed<br>
+		<br>
+		Additional Comments:<br>
+		<textarea name="message" rows="5" cols="30">
+		</textarea>
+		<br>
+		Email:<br>
+		<input type="email" name="mail"><br>
+		Telephone:<br>
+		<input type="tel" name="telephone"><br>
+		LinkedIn Url:<br>
+		<input type="url" name="linkedinurl"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
